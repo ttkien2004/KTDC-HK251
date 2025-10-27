@@ -1,0 +1,7 @@
+Demand Elasticity (coefficient of log_P): -0.1196
+P-value: 0.0163
+Interpretation: A 1% increase in price leads to a -0.1196% change in quantity demanded.
+Expected: Elasticity should be negative (~ -0.1 to -0.5 for gasoline). If positive, check instruments or data.
+
+Long-term Demand Elasticity: -1.0567
+

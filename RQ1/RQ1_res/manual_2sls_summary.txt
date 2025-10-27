@@ -1,0 +1,25 @@
+                          IV-2SLS Estimation Summary                          
+==============================================================================
+Dep. Variable:                  log_Q   R-squared:                      0.6761
+Estimator:                    IV-2SLS   Adj. R-squared:                 0.6688
+No. Observations:                 229   F-statistic:                    543.27
+Date:                Sat, Oct 11 2025   P-value (F-stat)                0.0000
+Time:                        20:01:25   Distribution:                  chi2(5)
+Cov. Estimator:                robust                                         
+                                                                              
+                               Parameter Estimates                                
+==================================================================================
+                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------
+const              12.325     0.5103     24.153     0.0000      11.325      13.325
+Inflation_rate     0.0791     0.0041     19.134     0.0000      0.0710      0.0872
+Holiday_dummy      0.0162     0.0208     0.7792     0.4359     -0.0246      0.0571
+VAT_rate          -12.092     0.6086    -19.868     0.0000     -13.285     -10.899
+QBOG_use_norm     -0.0531     0.0063    -8.4132     0.0000     -0.0655     -0.0407
+log_P             -0.1196     0.0498    -2.4013     0.0163     -0.2172     -0.0220
+==================================================================================
+
+Endogenous: log_P
+Instruments: ln_brent_er_lag1
+Robust Covariance (Heteroskedastic)
+Debiased: False

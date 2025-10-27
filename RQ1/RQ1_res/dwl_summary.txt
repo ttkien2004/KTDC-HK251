@@ -1,0 +1,2 @@
+(DWL): -59149095.36 VND
+DWL based on: 1/2 * deltaP * deltaQ
