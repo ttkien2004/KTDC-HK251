@@ -1,0 +1,3 @@
+Model type: VECM
+Pass-through CPI chung: 0.0190
+Pass-through CPI giao thông: 0.3105
