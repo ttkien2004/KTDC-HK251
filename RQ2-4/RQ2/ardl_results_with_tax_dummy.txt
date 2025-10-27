@@ -1,0 +1,39 @@
+                              ARDL Model Results                              
+==============================================================================
+Dep. Variable:       log_retail_price   No. Observations:                  230
+Model:               ARDL(4, 4, 4, 4)   Log Likelihood                 527.680
+Method:               Conditional MLE   S.D. of innovations              0.023
+Date:                Sat, 11 Oct 2025   AIC                          -1013.361
+Time:                        19:56:27   BIC                           -941.529
+Sample:                             4   HQIC                          -984.372
+                                  230                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                      0.7528      0.559      1.348      0.179      -0.348       1.854
+log_retail_price.L1        0.9196      0.069     13.315      0.000       0.783       1.056
+log_retail_price.L2       -0.1169      0.095     -1.237      0.218      -0.303       0.069
+log_retail_price.L3        0.0432      0.086      0.502      0.617      -0.127       0.213
+log_retail_price.L4       -0.0066      0.050     -0.132      0.895      -0.105       0.091
+log_brent_price_usd.L0     0.1970      0.021      9.346      0.000       0.155       0.239
+log_brent_price_usd.L1     0.1089      0.035      3.146      0.002       0.041       0.177
+log_brent_price_usd.L2    -0.2198      0.035     -6.361      0.000      -0.288      -0.152
+log_brent_price_usd.L3     0.0029      0.037      0.077      0.939      -0.070       0.076
+log_brent_price_usd.L4     0.0108      0.030      0.354      0.723      -0.049       0.071
+log_exchange_rate.L0       0.3183      0.181      1.757      0.080      -0.039       0.675
+log_exchange_rate.L1      -0.4439      0.254     -1.750      0.082      -0.944       0.056
+log_exchange_rate.L2       0.2061      0.256      0.806      0.421      -0.298       0.710
+log_exchange_rate.L3       0.1182      0.255      0.463      0.644      -0.385       0.622
+log_exchange_rate.L4      -0.1555      0.180     -0.862      0.390      -0.511       0.200
+Inflation_rate.L0         -0.0014      0.010     -0.143      0.887      -0.021       0.018
+Inflation_rate.L1          0.0175      0.014      1.284      0.200      -0.009       0.044
+Inflation_rate.L2         -0.0089      0.014     -0.644      0.520      -0.036       0.018
+Inflation_rate.L3          0.0076      0.014      0.554      0.580      -0.019       0.035
+Inflation_rate.L4         -0.0191      0.010     -1.925      0.056      -0.039       0.000
+==========================================================================================
+
+Long-run Pass-through Coefficients:
+log_brent_price_usd: 0.6210
+log_exchange_rate: 0.2689
+Number of significant lags: 2 periods (approximately 14 days)
+

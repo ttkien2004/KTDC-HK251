@@ -1,0 +1,4 @@
+Coefficient of QBOG_balance.L0 (Price_volatility): -0.024099160240818256
+QBOG_balance reduces price volatility.
+Coefficient of QBOG_balance.L0 (Quantity): -0.00936111478944808
+QBOG_balance does not significantly stabilize quantity or may reduce it.
